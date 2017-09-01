@@ -6,12 +6,12 @@ import time			#inicializo los timers y contadores de la RPi
 import pygame			#inicializo la librería para la lectura de los botones del control del PS3
 
 #lado izquierdo PuenteH1 GPIO para motor DC
-in1=18
-in2=19
+in1=7
+in2=11
 
 #lado derecho PuenteH2 GPIO para motor DC
-in5=22
-in6=23
+in5=13
+in6=15
 
 GPIO.setmode(GPIO.BCM)		#configuro las salidas de los GPIO con el nombre natural de los pines en vez del orden de  los mismos
 
